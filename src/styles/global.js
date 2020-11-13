@@ -19,7 +19,7 @@ export default createGlobalStyle`
 
   body, input, button {
     /* font-family: 'Roboto'; */
-     font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
 

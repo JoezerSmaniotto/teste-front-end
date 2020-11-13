@@ -69,7 +69,11 @@ export const Component = styled.div`
         .infoDescription h2{
             padding-bottom: 15px
         }
-        
+        .infoDescription p{
+            font-weight: normal;
+            font-size: 1em;
+
+        }
      
     }
 

@@ -26,16 +26,19 @@ const Dashboard = () => {
             <Component>
                 <section> 
                     
-                   {
-                        menu[0].products.map((me)=>(
-                            <Card menu={me}/>
-                        )) 
+                   {    menu && 
+                       
+                            menu[0]?.products.map((me)=>(
+                                    <Card menu={me}/>
+                            )) 
+                        
                    }  
                 </section>
                 
                 <section> 
-                   {
-                        menu[1].products.map((me)=>(
+                   {    
+                        menu && 
+                        menu[1]?.products.map((me)=>(
                             <Card menu={me}/>
                         )) 
                    }  
